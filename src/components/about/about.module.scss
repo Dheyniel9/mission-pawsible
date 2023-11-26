@@ -1,0 +1,43 @@
+.root {
+    background-color: #F6EBDA;
+    display: flex;
+    padding: 20px;
+}
+
+.Header {
+    text-align: end;
+}
+
+.description {
+    text-align: justify;
+}
+
+.main-header {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about-image {
+    width: 90px;
+}
+
+.image2 {
+    width: 90px;
+    margin: 0px 20px 0px 6rem;
+    padding-right: 1px;
+}
+
+.main-img {
+    display: grid;
+    flex-direction: column;
+    padding: 1px;
+    grid-auto-flow: row;
+    gap: 0px;
+    margin: 30px 0px 0px;
+}
+
+.image3 {
+    width: 90px;
+}
