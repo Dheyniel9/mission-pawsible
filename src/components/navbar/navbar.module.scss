@@ -20,7 +20,23 @@
 }
 
 .nav-img {
-    width: 5rem;
+    width: 7rem;
 }
 
-.navbar {}
+.navbar {
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.nav-btn {
+    background-color: rgb(255, 147, 46);
+    border-radius: 115px;
+    padding: 0px 15px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: none;
+    outline: initial;
+    display: flex;
+}

@@ -1,0 +1,57 @@
+.root {
+    background-color: #003459;
+    opacity: 1;
+    padding: 5px;
+    color: #ffff;
+    margin: 0px;
+}
+
+.footer-img {
+    width: 4rem;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.footer-main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 5px;
+}
+
+.second-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-left: 0px solid black;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 0px 0px 2px;
+    margin: 0px 0px 5px;
+    align-items: center;
+}
+
+.social-meida {}
+
+.fb-icon {}
+
+.social-meida {
+    display: flex;
+    gap: 10px;
+}
+
+.h4-text-footer {
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+}

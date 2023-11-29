@@ -25,6 +25,9 @@ export const Navbar = ({ className }: NavbarProps) => {
                     <li>About Us</li>
                     <li>Contact Us</li>
                 </nav>
+                <div>
+                    <button className={styles['nav-btn']}>LOGIN</button>
+                </div>
             </div>
         </div>
     );

@@ -1,0 +1,93 @@
+.root {
+    background-color: #f6ebda;
+    padding: 20px;
+    margin: 0px;
+}
+
+.h2-text {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #2f2105;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.register-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    grid-template-rows: none;
+    grid-template-columns: 1fr;
+    gap: 0px;
+}
+
+.form {
+    justify-content: space-around;
+    width: auto;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.third-input {
+    width: 300%;
+    margin-top: 5px;
+}
+
+.form-label {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.second-main {}
+
+.label-text {
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+    font-weight: 600;
+    color: #4E3503;
+}
+
+.form-input {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.address-form {
+    width: 100%;
+    text-align: center;
+}
+
+.address-input {
+    width: 100%;
+    margin: 5px 0px 0px;
+}
+
+.main-form {
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 1px;
+    justify-content: space-between;
+}
+
+.register-btn {
+    display: flex;
+    gap: 50px;
+    justify-items: center;
+    align-content: center;
+}
+
+.register-btn {
+    justify-content: center;
+    gap: 150px;
+    display: flex;
+}
