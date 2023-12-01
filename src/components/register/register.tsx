@@ -77,6 +77,15 @@ export const Register = ({ className }: RegisterProps) => {
                         <input type="password" className={styles['form-input']} />
                     </div>
                 </div>
+                <div className={styles['signUp-btn']}>
+                    <div>
+                        <button>Sign up with Google</button>
+                    </div>
+                    <div>
+                        <button>Sign up </button>
+                    </div>
+                </div>
+                <div className={styles['register-rawtext']}>Already have an account? </div>
             </div>
         </div>
     );

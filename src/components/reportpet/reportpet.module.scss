@@ -1,0 +1,187 @@
+.root {
+    padding: 20px;
+    background-color: #f6ebda;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.report-label {
+    font-weight: 500;
+}
+
+.header-text {
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+    width: 50%;
+}
+
+.header {
+    text-align: center;
+}
+
+.second-left {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+    justify-items: end;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.second-right {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+    justify-items: end;
+    margin-bottom: 10px;
+}
+
+.breed-input {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.type-input {
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.report-btn {
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.first-input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.main-left {
+    width: 50%;
+}
+
+.main-root {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.main-right {
+    width: 50%;
+}
+
+.microhipped-input {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 46%;
+}
+
+.textarea-right {
+    width: 180%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.label-text::after {
+    content: ' *';
+    color: red;
+    display: inline;
+}
+
+.fourth-left {
+    margin-top: 10px;
+}
+
+.fourth-left-radio {
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    align-content: center;
+    justify-content: start;
+    gap: 80px;
+}
+
+.lostpet-radio {
+    display: flex;
+    gap: 5px;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.left-color {
+    margin-top: 5px;
+}
+
+.report-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid #000000;
+    margin-top: 5px;
+}
+
+.cancel-btn {
+    background-color: #316F6F;
+    border: 1px solid #FFFFFF;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.save-btn {
+    background-color: #FF902B;
+    border-radius: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.report-button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}

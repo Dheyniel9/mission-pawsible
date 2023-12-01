@@ -1,0 +1,51 @@
+.root {
+    padding: 20px;
+    background-color: #f6ebda;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.secondary-main {
+    width: 80%;
+    align-items: center;
+    justify-items: center;
+    justify-content: start;
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-rawtext {
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+}
+
+.login-btn {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}

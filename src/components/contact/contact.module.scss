@@ -50,12 +50,15 @@
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+    margin: 10px 0px;
+    border: 1px solid #FFFFFF;
 }
 
 .p {
     text-align: center;
     width: 50rem;
     flex-wrap: wrap;
+    margin: 15px;
 }
 
 .textarea {

@@ -26,17 +26,13 @@ export const Contact = ({ className }: ContactProps) => {
             </p>
             <form className={styles.form}>
                 <label className={styles.label}>Email</label>
-                <br />
                 <input type="text" className={styles.input} />
                 <br />
                 <label className={styles.label}>Subject</label>
-                <br />
                 <input type="text" className={styles.input} />
                 <br />
                 <label className={styles.label}>Message</label>
-                <br />
                 <textarea className={styles.textarea} />
-                <br />
                 <br />
                 <button className={styles.button}>SEND</button>
             </form>
