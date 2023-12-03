@@ -115,7 +115,7 @@
 }
 
 .textarea-right {
-    width: 180%;
+    width: 100%;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -184,4 +184,18 @@
     justify-items: center;
     align-items: center;
     justify-content: center;
+}
+
+.update_downlist {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 15vw;
+}
+
+.descrition-container {
+    width: 100%;
+}
+
+.message-container {
+    width: 100%;
 }

@@ -6,7 +6,9 @@ export default createBoard({
     Board: () => <Reuinited_pets />,
     isSnippet: true,
     environmentProps: {
-        canvasHeight: 230,
-        canvasWidth: 1034
+        canvasHeight: 340,
+        canvasWidth: 974,
+        windowWidth: 1254,
+        windowHeight: 679
     }
 });

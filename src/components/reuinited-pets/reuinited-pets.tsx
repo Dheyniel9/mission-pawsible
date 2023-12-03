@@ -15,7 +15,22 @@ export const Reuinited_pets = ({ className }: Reuinited_petsProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div>
-                <img src={image} alt="imageTop" width={500} className={styles['header-img']} />
+                <div className={styles['header-container']}>
+                    <div>
+                        <img
+                            src={image}
+                            alt="imageTop"
+                            width={500}
+                            className={styles['header-img']}
+                        />
+                    </div>
+                    <div className={styles['header-text']}>
+                        <h1 className={styles['header-text']}>
+                            Heartwarming Reunion <br />
+                            <span className={styles['header-span']}>Pets Reunited with Their Beloved Owners</span>
+                        </h1>
+                    </div>
+                </div>
             </div>
             <div className={styles['middle-container']}>
                 <div>

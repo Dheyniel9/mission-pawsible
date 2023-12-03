@@ -30,8 +30,7 @@ export const Reportpet = ({ className }: ReportpetProps) => {
                                     Pet Type
                                 </label>
                                 <br />
-                                <input type="text" className={styles['type-input']} />
-                            </div>
+                                <select className={styles.update_downlist}><option>DOG</option><option>CAT</option></select></div>
                             <div className={styles.breed}>
                                 <label htmlFor="text" className={styles['label-text']}>
                                     Breed
@@ -74,6 +73,21 @@ export const Reportpet = ({ className }: ReportpetProps) => {
                             <br />
                             <input type="text" className={styles['first-input']} />
                         </div>
+                        <div className={styles['second-left']}>
+                            <div className={styles['pet-type']}>
+                                <label htmlFor="text" className={styles['label-text']}>
+                                    Size
+                                </label>
+                                <br />
+                                <select className={styles.update_downlist}><option>SMALL</option><option>MEDIUM</option><option>LARGE</option></select></div>
+                            <div className={styles.breed}>
+                                <label htmlFor="text" className={styles['label-text']}>
+                                    Gender
+                                </label>
+                                <br />
+                                <select className={styles.update_downlist}><option>FEMALE</option><option>MALE</option></select>
+                            </div>
+                        </div>
                     </div>
                     <div className={styles['main-right']}>
                         <div className={styles['first-left']}>
@@ -81,7 +95,7 @@ export const Reportpet = ({ className }: ReportpetProps) => {
                                 Microchipped
                             </label>
                             <br />
-                            <input type="text" className={styles['microhipped-input']} />
+                            <select className={styles.update_downlist}><option>YES</option><option>NO</option></select>
                         </div>
                         <div className={styles['second-right']}>
                             <div className={styles['pet-type']}>
@@ -100,7 +114,7 @@ export const Reportpet = ({ className }: ReportpetProps) => {
                             </div>
                         </div>
                         <div className={styles['second-right']}>
-                            <div>
+                            <div className={styles['descrition-container']}>
                                 <label htmlFor="text" className={styles['label-text']}>
                                     Description
                                 </label>
@@ -109,7 +123,7 @@ export const Reportpet = ({ className }: ReportpetProps) => {
                             </div>
                         </div>
                         <div className={styles['second-right']}>
-                            <div className={styles['pet-type']}>
+                            <div className={styles['message-container']}>
                                 <label htmlFor="text">Message</label>
                                 <br />
                                 <textarea className={styles['textarea-right']} />
