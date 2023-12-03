@@ -34,6 +34,9 @@
 .input {
     min-height: 0px;
     min-width: auto;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
 
 .button {
@@ -51,7 +54,7 @@
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
     margin: 10px 0px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
 }
 
 .p {
@@ -63,8 +66,30 @@
 
 .textarea {
     height: 20rem;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
 
 .label {
     text-align: start;
+}
+
+@media (max-width: 500px) {
+    .p {
+        text-align: center;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .form {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        justify-items: start;
+        width: 30rem;
+        padding: auto;
+    }
 }

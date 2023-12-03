@@ -6,6 +6,6 @@ export default createBoard({
     Board: () => <Reportpet />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 622
+        canvasWidth: 814
     }
 });

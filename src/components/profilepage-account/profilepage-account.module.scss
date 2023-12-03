@@ -1,0 +1,103 @@
+.root {
+    border-radius: 0px;
+    background-color: #f6ebda;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Account-img {
+    margin: auto;
+}
+
+.Account-text {
+    font-weight: 400;
+    color: #667479;
+}
+
+.Account-details {
+    color: #667479;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 0px;
+    display: grid;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 0px;
+    justify-items: baseline;
+    width: 18rem;
+    grid-template-columns: 1fr 12rem;
+    border-bottom: 1px solid black;
+}
+
+.Account-span {
+    font-weight: 500;
+}
+
+.Account_emailText {
+    font-size: 0.8rem;
+}
+
+.Account-header {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Account_Contact {
+    display: grid;
+    grid-template-columns: 1fr 12rem;
+    color: #667479;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Account-btn {
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+    background-color: #FF902A;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.Logout-btn {
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: #033241;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+}

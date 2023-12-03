@@ -5,4 +5,9 @@ export default createBoard({
     name: 'Petdetail',
     Board: () => <Petdetail />,
     isSnippet: true,
+    environmentProps: {
+        windowHeight: 606,
+        canvasHeight: 875,
+        windowWidth: 966
+    }
 });
