@@ -14,7 +14,7 @@ export const Reportpet = ({ className }: ReportpetProps) => {
         <div className={classNames(styles.root, className)}>
             <div className={styles['main-div']}>
                 <div className={styles.header}>
-                    <h1>UPDATE REPORT</h1>
+                    <h1>REPORT PET</h1>
                 </div>
 
                 <div className={styles['main-root']}>
@@ -134,7 +134,7 @@ export const Reportpet = ({ className }: ReportpetProps) => {
                 <div className={styles['report-button']}>
                     <button className={styles['cancel-btn']}>Cancel</button>
 
-                    <button className={styles['save-btn']}>UPDATE</button>
+                    <button className={styles['save-btn']}>SAVE & POST</button>
                 </div>
             </div>
         </div>

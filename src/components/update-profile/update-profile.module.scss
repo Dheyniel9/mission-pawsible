@@ -1,0 +1,89 @@
+.root {
+    background-color: #F6EBDA;
+    padding: 20px;
+}
+
+.main-container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: grid;
+    flex-direction: row;
+    gap: 50px;
+    grid-auto-flow: column;
+}
+
+.left_content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.right_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    display: flex;
+    gap: 10px;
+}
+
+.address-input {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.address_container {
+    width: 100%;
+}
+
+.form_input {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-label {
+    font-size: 0.8rem;
+    color: #667479;
+    font-weight: 600;
+}
+
+.header-text {
+    font-weight: 600;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.left-btn {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #FF902A;
+    font-size: 1rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #FF902A;
+}
