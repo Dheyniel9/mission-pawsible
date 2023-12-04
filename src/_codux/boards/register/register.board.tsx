@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => <Register />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 494,
+        canvasWidth: 766,
         windowWidth: 1074
     }
 });
